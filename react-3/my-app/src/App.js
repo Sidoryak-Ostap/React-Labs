@@ -1,24 +1,33 @@
 import logo from './logo.svg';
 import './App.css';
+import WeatherWidget from './Components/WeatherWidget';
+import { useState } from 'react';
+
+import {SnackbarProvider} from 'react-snackbar-messages';
+
+import InputCityElems from './Components/InputCityElems';
+
 
 function App() {
+
+
+  const [InputCity, SetInputCity] = useState('London');
+
+ 
   return (
+    <SnackbarProvider>
+
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <div className='container'>
+        <InputCityElems SetInputCity = {SetInputCity}/>
+        <WeatherWidget city={InputCity}/>
+      </div>
+      
     </div>
+
+    </SnackbarProvider>
+
   );
 }
 

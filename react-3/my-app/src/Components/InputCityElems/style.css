@@ -1,0 +1,53 @@
+
+
+
+
+input{
+    list-style-type: none;
+    list-style: none;
+    outline: none;
+}
+
+button{
+    outline: none;
+    list-style: none;
+}
+
+
+
+.InputElems{
+    margin-bottom: 25px;
+}
+
+.input_city{
+    width: 150px;
+    padding: 8px 15px;
+    font-size: 16px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+.input_city:focus{
+    border: 2px solid black;
+}
+
+.search_button{
+    
+    padding: 8px 15px;
+    font-size: 16px;
+    border-radius: 15px;
+    background-color: black;
+    color: azure;
+    font-weight: 700;
+    cursor: pointer;
+    border: 0;
+
+    transition: 0.3s linear;
+}
+
+.search_button:hover{
+    color: black;
+    background-color: white;
+
+}
+
