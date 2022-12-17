@@ -1,0 +1,97 @@
+
+input, textarea{
+    outline: none;
+}
+
+
+.contact{
+    width: 100%;
+    background-color: #fff;
+    padding: 40px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.contact_title{
+    font-size: 38px;
+    color: #4e4e4e;
+    margin-bottom: 20px;
+}
+
+.contact_text{
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #4e4e4e;
+    line-height: 24px;
+}
+
+
+.contact_item{
+    margin-bottom: 20px;
+}
+
+
+.input_suptitle{
+    font-size: 14px;
+    color: #333;
+
+    margin-bottom: 8px;
+    font-weight: 700;
+
+}
+
+
+.input_name{
+    padding: 10px 10px;
+    font-size: 14px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.input_email{
+    padding: 10px 10px;
+    font-size: 14px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.input_message{
+    padding: 10px 10px;
+    font-size: 14px;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+    height: 120px;
+    resize: none;
+}
+
+
+
+.input_field{
+    border: 1px solid rgba(51, 51, 51, 0.616);
+}
+.input_field:focus{
+    border: 1px solid blue;
+}
+
+
+
+
+.contact_button{
+    background-color: grey;
+    
+    padding: 15px 25px;
+    width: fit-content;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.contact_btn{
+    font-weight: 600;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
