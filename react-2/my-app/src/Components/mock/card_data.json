@@ -1,0 +1,34 @@
+[
+    {
+        "img": "./imgs/100x100.jpg",
+        "title": "Headline Text",
+        "text": "nteger imperdiet vestibulum leo ut tincidunt. In sagittis diam ut leo convallis vel rutrum mauris ullamcorper. Vestibulum adipiscing erat sit amet justo luctus molestie.",
+        "subtext": "Aliquatjusto quisque nam consequat doloreet vest orna partur scetur portortis nam. Metadipiscing eget facilis elit sagittis felisi eger id justo maurisus convallicitur.",
+        "button_text": "Read More"
+
+    },
+
+    {
+        "img": "./imgs/100x100.jpg",
+        "title": "Headline Text",
+        "text": "nteger imperdiet vestibulum leo ut tincidunt. In sagittis diam ut leo convallis vel rutrum mauris ullamcorper. Vestibulum adipiscing erat sit amet justo luctus molestie.",
+        "subtext": "Aliquatjusto quisque nam consequat doloreet vest orna partur scetur portortis nam. Metadipiscing eget facilis elit sagittis felisi eger id justo maurisus convallicitur.",
+        "button_text": "Read More"
+    },
+
+    {
+        "img": "./imgs/100x100.jpg",
+        "title": "Headline Text",
+        "text": "nteger imperdiet vestibulum leo ut tincidunt. In sagittis diam ut leo convallis vel rutrum mauris ullamcorper. Vestibulum adipiscing erat sit amet justo luctus molestie.",
+        "subtext": "Aliquatjusto quisque nam consequat doloreet vest orna partur scetur portortis nam. Metadipiscing eget facilis elit sagittis felisi eger id justo maurisus convallicitur.",
+        "button_text": "Read More"
+    },
+
+    {
+        "img": "./imgs/100x100.jpg",
+        "title": "Headline Text",
+        "text": "nteger imperdiet vestibulum leo ut tincidunt. In sagittis diam ut leo convallis vel rutrum mauris ullamcorper. Vestibulum adipiscing erat sit amet justo luctus molestie.",
+        "subtext": "Aliquatjusto quisque nam consequat doloreet vest orna partur scetur portortis nam. Metadipiscing eget facilis elit sagittis felisi eger id justo maurisus convallicitur.",
+        "button_text": "Read More"
+    }
+]

@@ -1,0 +1,21 @@
+
+
+
+
+header {
+    width: 100%;
+    background-color: #232323;
+    color: #bdbab6;
+    padding: 20px 0;
+    box-sizing: border-box;
+  }
+  
+
+  .subheader_container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: flex-end;
+  }
+  

@@ -1,0 +1,41 @@
+
+
+
+.card{
+    display: flex;
+    align-items: flex-start;
+}
+
+.card_img{
+    width: 230px;
+    height: 90px;
+    background-color: #333333;
+    margin-right: 25px;
+    margin-top: 8px;
+}
+
+.card_info_title{
+    font-size: 22px;
+    color: #8d8d8f;
+    margin-bottom: 15px;
+}
+
+.card_info_text{
+    margin-bottom: 20px;
+}
+
+.card_info_subtext{
+    margin-bottom: 20px;
+}
+
+.card_info_button{
+    display: flex;
+    justify-content: end;
+}
+
+
+
+.card_btn{
+    color: orange;
+    cursor: pointer;
+}

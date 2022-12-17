@@ -1,0 +1,45 @@
+.menu-item {
+    margin-right: 25px;
+    transition: 0.25s;
+    position: relative;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+
+  .menu-item:hover {
+    color: rgb(255, 140, 0);
+  }
+  
+  .menu-sub-items {
+    width: 210px;
+    color: white;
+    background-color: black;
+    position: absolute;
+    top: 100%;
+    z-index: 10;
+  }
+  .menu-sub-items > div {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: normal;
+  }
+
+  .menu-sub-items > div:hover{
+    background-color: rgb(255, 140, 0);
+  } 
+  
+  .menu-sub-items {
+    display: none;
+  }
+  .menu-sub-items.show,
+  .menu-sub-items:hover {
+    display: block;
+  }

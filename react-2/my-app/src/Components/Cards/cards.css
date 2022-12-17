@@ -1,0 +1,17 @@
+
+
+.cards{
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+.cards_container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2. 1fr);
+    column-gap: 50px;
+    row-gap: 50px;
+}
